@@ -1,0 +1,84 @@
+@themeColor: rgb(243, 156, 18);
+
+body{
+	margin: 0 auto;
+	text-align: center;
+	background-color: @themeColor;
+	font-family: Lato;
+}
+h1{
+	font-size: 24px;
+	color: #fff;
+}
+.quote-box{
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	border: 1px solid white;
+	width: 50%;
+	border-radius: 5px;
+	background-color: #fff;
+
+}
+.buttons{
+	/*background-color: #999999;*/
+	color: black;
+	height: 30px;
+	width: 120px;
+	float: left;
+	cursor: pointer;
+	color: #fff;
+
+}
+footer{
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+	transform: translateX(-50%);
+	color: #fff;
+}
+footer a {
+	color: #fff;
+}
+.social{
+	background-image: url(img/spritesheet.png);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+.tumblr {
+	width: 30px;
+    height: 30px;
+    background-position: -85px -5px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.twitter {
+	width: 30px;
+    height: 30px;
+    background-position: -85px -45px;
+
+}
+#new-quote{
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	border: 1px solid white;
+	border-radius: 8px;
+	background-color: @themeColor;
+	color: #fff;
+}
+
+#quote{
+	font-size: 24px;
+	padding: 40px 20px ;
+	text-align: left;
+	color: @themeColor;
+
+}
+#author{
+	text-align: right;
+	padding: 0px 35px 20px;
+}
